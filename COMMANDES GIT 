@@ -1,0 +1,15 @@
+
+#OUVRIR LE REPO 
+git checkout "lien du repo"
+
+
+#ENVOYER VOS CHANGEMENTS LOCAUX SUR LE REPO GIT 
+git add . 
+git commit -m "description des changements"
+git push -u origin -b [nom de votre branche] #pour push sur votre branche
+git push #pour push sur main (être sur de soi)
+
+
+#RÉCUPÉRER LES CHANGEMENTS DES COPAINS 
+git pull 
+
