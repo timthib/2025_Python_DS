@@ -1,0 +1,33 @@
+## Projet
+
+État de santé du traffic aérien français : évolution des volumes et des prix et 
+
+## Données
+
+1. Traffic aérien commercial mensuel français : 
+
+https://www.data.gouv.fr/datasets/trafic-aerien-commercial-mensuel-francais-par-paire-daeroports-par-sens-depuis-1990/
+
+- ASP_LSN_AAAA
+
+Présente le trafic aérien commercial mensuel réalisé en France par segment, faisceau et liaison par pays.
+Les résultats mensuels sont détaillés pour les liaisons ayant réalisé un trafic supérieur ou égal à 5000. 
+passagers équivalents (Peq), où un passager est équivalent à cent kilogrammes de fret ou de poste.
+Les chiffres des liaisons sous ce seuil sont regroupés sous des lignes d’agrégation fondées sur la
+combinaison des champs segment et faisceaux.
+
+- ASP_CIE_AAAA (format csv)
+
+Présente le trafic aérien commercial mensuel réalisé en France par transporteur depuis 2010.
+Les résultats mensuels sont détaillés pour ceux ayant réalisé un trafic supérieur ou égal à dix unités de trafic (UDT), soit dix mille passagers ou mille tonnes de fret ou de poste.
+Les chiffres des transporteurs sous ce seuil sont regroupés sous deux lignes distinctes selon qu’ils soient français ou non.
+
+- APS_APT_AAAA
+La série ASP_APT_AAAA (format csv) présente le trafic aérien commercial mensuel des aérodromes français depuis 1990.
+Les résultats mensuels sont détaillés pour ceux ayant réalisé un trafic supérieur ou égal à une unité de trafic (UDT), soit mille passagers ou cent kilogrammes de fret ou de poste.
+Les chiffres des aérodromes sous ce seuil sont regroupés sous deux lignes distinctes selon leur localisation (Métropole ou Outre-Mer).
+
+
+Indice des prix du transport aérien de passagers : 
+
+https://www.data.gouv.fr/datasets/indices-des-prix-du-transport-aerien-de-passagers/
