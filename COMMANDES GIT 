@@ -3,10 +3,13 @@
 git checkout "lien du repo"
 
 
+#SE CONNECTER À SA BRANCHE
+git checkout -b [nom de la branche]
+
 #ENVOYER VOS CHANGEMENTS LOCAUX SUR LE REPO GIT 
 git add . 
 git commit -m "description des changements"
-git push -u origin -b [nom de votre branche] #pour push sur votre branche
+git push -u origin [nom de votre branche] #pour push sur votre branche
 git push #pour push sur main (être sur de soi)
 
 
